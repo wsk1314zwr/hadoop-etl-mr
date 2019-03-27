@@ -21,6 +21,7 @@ public class LogUtils {
     public String parse(String log) {
         String hellow = "";
         String hellow_master = "";
+        String hellow_dev = "";
         String result = "";
         try {
             String[] splits = log.split("\t");
