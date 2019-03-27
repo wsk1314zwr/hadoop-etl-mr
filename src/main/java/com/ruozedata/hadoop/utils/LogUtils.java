@@ -19,6 +19,7 @@ public class LogUtils {
      * 按\t分割
      */
     public String parse(String log) {
+        String hellow = "";
         String result = "";
         try {
             String[] splits = log.split("\t");
