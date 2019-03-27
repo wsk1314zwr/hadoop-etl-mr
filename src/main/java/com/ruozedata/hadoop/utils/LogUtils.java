@@ -19,7 +19,7 @@ public class LogUtils {
      * 按\t分割
      */
     public String parse(String log) {
-        String hellow = "";
+        String      hellow = "";
         String hellow_master = "";
         String hellow_dev = "";
         String result = "";
